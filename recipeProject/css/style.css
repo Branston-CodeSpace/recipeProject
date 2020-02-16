@@ -17,7 +17,7 @@ body, html{
 
   background-attachment:fixed;
 }
-
+/* Can't add alt tag to images, it breaks them */
 .pimg1{
   background-image:url('../images/image1.jpg');
   min-height:100%;
@@ -34,7 +34,7 @@ body, html{
 }
 
 .section{
-  text-align:center;
+  text-align:left;
   padding:50px 80px;
 }
 
@@ -75,4 +75,8 @@ body, html{
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
   }
+}
+
+table, th, td {
+  border: 2px solid black;
 }
